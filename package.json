@@ -1,18 +1,19 @@
 {
-  "name": "react-redux-express-starter",
+  "name": "react-redux-express-apollo-starter",
   "version": "1.0.0",
   "private": true,
-  "description": "Starter kit for those who wish to use Create React App + Redux + Express.",
+  "description": "Starter kit for those who wish to use Create React App + Redux + Express + Apollo.",
   "main": "lib/index.js",
   "scripts": {
     "start": "react-scripts start",
-    "dev": "heroku local -f Procfile.local",
+    "start:server": "heroku local -f Procfile.local",
     "prebuild": "babel server -d lib",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "serve": "node lib"
   },
-  "repository": "notrab/react-redux-express-starter",
+  "repository": "notrab/react-redux-express-apollo-starter",
   "keywords": [
     "javascript",
     "babel",
@@ -25,17 +26,20 @@
   "author": "Jamie Barton <hi_jamie@me.com> (http://twitter.com/notrab)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/notrab/react-redux-express-starter/issues"
+    "url": "https://github.com/notrab/react-redux-express-apollo-starter/issues"
   },
-  "homepage": "https://github.com/notrab/react-redux-express-starter#readme",
+  "homepage": "https://github.com/notrab/react-redux-express-apollo-starter#readme",
   "dependencies": {
+    "babel-cli": "^6.24.1",
     "compression": "^1.7.0",
     "express": "^4.15.3",
+    "graphql": "^0.10.5",
     "husky": "^0.14.3",
     "lint-staged": "^4.0.2",
     "morgan": "^1.8.2",
     "prettier": "^1.5.3",
     "react": "^15.6.1",
+    "react-apollo": "^1.4.8",
     "react-dom": "^15.6.1",
     "react-redux": "^5.0.5",
     "redux": "^3.7.2",

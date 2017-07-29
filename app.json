@@ -1,8 +1,8 @@
 {
-  "name": "react-redux-express-starter",
-  "description": "Starter kit for those who wish to use Create React App + Redux + Express.",
-  "repository": "https://github.com/notrab/react-redux-express-starter",
-  "website": "https://github.com/notrab/react-redux-express-starter",
+  "name": "react-redux-express-apollo-starter",
+  "description": "Starter kit for those who wish to use Create React App + Redux + Express + Apollo.",
+  "repository": "https://github.com/notrab/react-redux-express-apollo-starter",
+  "website": "https://github.com/notrab/react-redux-express-apollo-starter",
   "keywords": [
     "javascript",
     "babel",

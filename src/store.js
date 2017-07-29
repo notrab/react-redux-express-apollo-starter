@@ -1,11 +1,12 @@
 import { createStore, applyMiddleware, compose } from 'redux'
 import thunk from 'redux-thunk'
 import rootReducer from './ducks'
+import client from './apollo'
 
 const initialState = {}
 
 const enhancers = []
-const middleware = [thunk]
+const middleware = [thunk, client.middleware()]
 
 if (process.env.NODE_ENV === 'development') {
   const devToolsExtension = window.devToolsExtension
