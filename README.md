@@ -4,7 +4,7 @@
 ```
 git clone https://github.com/notrab/react-redux-express-starter
 cd react-redux-express-starter
-npm install
+yarn
 ```
 
 ## Development
