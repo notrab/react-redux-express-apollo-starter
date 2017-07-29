@@ -2,8 +2,8 @@
 
 ## Installation
 ```
-git clone https://github.com/notrab/react-redux-express-starter
-cd react-redux-express-starter
+git clone https://github.com/notrab/react-redux-express-apollo-starter
+cd react-redux-express-apollo-starter
 yarn
 ```
 
