@@ -1,4 +1,4 @@
-# React + Redux + Express
+# React + Redux + Express + Apollo
 
 ## Installation
 ```
